@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController <UITextFieldDelegate, UIWebViewDelegate>
+@interface RootViewController : UIViewController <UITextFieldDelegate, UIWebViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
 
 @end

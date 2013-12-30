@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F53292E5-309E-4B41-A150-761BC690044D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimpleBrowser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE6F1DED-8BEE-4556-90C3-1D9F009D4406</key>
+		<string>https://github.com/nexusskv/SimpleBrowser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SimpleBrowser.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE6F1DED-8BEE-4556-90C3-1D9F009D4406</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nexusskv/SimpleBrowser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE6F1DED-8BEE-4556-90C3-1D9F009D4406</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE6F1DED-8BEE-4556-90C3-1D9F009D4406</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SimpleBrowser</string>
+		</dict>
+	</array>
+</dict>
+</plist>
