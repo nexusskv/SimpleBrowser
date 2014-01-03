@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #2E6E87;
+}
+
+.wrapper
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width:98%;
+	padding-right: 0pt;
+	padding-top: 1px;
+}
+
+
+/*Content */
+a
+{
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #225265;
+}
+
+
+div.content
+{
+	width:100%;
+	margin-bottom:15px;
+	padding-bottom: 0pt;
+	padding-top:1px;
+	float:left;
+}
+
+table
+{
+	border-collapse:collapse;
+}
+
+th.divider
+{
+	padding:0px;
+	margin:0px;
+	border:0px;
+	border-spacing:0px;
+	color:#FFFFFF;
+	font-size:20px;
+	border-bottom:4px solid #00A9EC;
+}
+
+th.title
+{
+	text-align:center;
+	width:140px;
+	border:0px;
+	padding:0px;
+	border-spacing:0px;
+	padding-top:4px;
+	background-color:#00A9EC;
+}
+
+td.cont
+{
+	vertical-align:middle;
+	border-spacing:0px;
+	padding-left:10px;
+	padding-right:10px;
+	width:100%;
+}
+
+table.contact
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+th.contact
+{
+	text-align:left;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+td.contact
+{
+	vertical-align:middle;
+	padding:5px;
+	padding-top:0px;
+}
+
+/*Portfolio */
+div.folio
+{
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:1%;
+	padding-right:1%;
+}
+
+img.portfolio
+{
+	text-align:left;
+	padding:5px;
+	padding-left:5px;
+	padding-right:5px;
+	border:none;
+}
+
+input.portfolio
+{
+	float:left;
+	margin:5px;
+	border:none;
+	cursor:pointer;
+	display:inline;
+}
+
+/*Other */
+hr.spacer
+{
+	text-align:center;
+	width:70%;
+	color:#00A9EC;
+	background-color:#00A9EC;
+	border-width:0px;
+	height:2px;
+}
+
+.left
+{
+	text-align:left;
+}
+
+/*Back */
+#back
+{
+	margin:10px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+/*Footer */
+#footer
+{
+	text-align:center;
+}
+
+#footer input
+{
+	background-color:transparent;
+	border:none;
+	color: #225265;
+	text-decoration:underline;
+}

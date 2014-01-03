@@ -16,6 +16,7 @@
 
 #define COLLECT_VIEW_TAG    100
 
+#define INFO_BUTTON_TAG     110
 
 @interface Settings : NSObject
 

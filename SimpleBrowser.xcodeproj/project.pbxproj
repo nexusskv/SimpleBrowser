@@ -65,6 +65,10 @@
 		1196AA971868A1E400476CF6 /* back_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1196AA931868A1E400476CF6 /* back_btn.png */; };
 		11B918E51869C97F00DF23A7 /* CollectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B918E41869C97F00DF23A7 /* CollectViewCell.m */; };
 		11B918EA1869CEF300DF23A7 /* CollectViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B918E91869CEF300DF23A7 /* CollectViewDataSource.m */; };
+		11BA38741876F3EE00558D7D /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BA38731876F3EE00558D7D /* DSActivityView.m */; };
+		11BA38761876FD8200558D7D /* url_history_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BA38751876FD8200558D7D /* url_history_btn.png */; };
+		11BA387B1877120B00558D7D /* About.html in Resources */ = {isa = PBXBuildFile; fileRef = 11BA38791877120B00558D7D /* About.html */; };
+		11BA387C1877120B00558D7D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 11BA387A1877120B00558D7D /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +148,11 @@
 		11B918E41869C97F00DF23A7 /* CollectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectViewCell.m; path = SimpleBrowser/DATALayer/UI/CollectViewCell/CollectViewCell.m; sourceTree = "<group>"; };
 		11B918E81869CEF300DF23A7 /* CollectViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectViewDataSource.h; path = SimpleBrowser/DATALayer/DataSources/CollectViewDataSource/CollectViewDataSource.h; sourceTree = "<group>"; };
 		11B918E91869CEF300DF23A7 /* CollectViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectViewDataSource.m; path = SimpleBrowser/DATALayer/DataSources/CollectViewDataSource/CollectViewDataSource.m; sourceTree = "<group>"; };
+		11BA38721876F3EE00558D7D /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
+		11BA38731876F3EE00558D7D /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
+		11BA38751876FD8200558D7D /* url_history_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = url_history_btn.png; sourceTree = "<group>"; };
+		11BA38791877120B00558D7D /* About.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.html; sourceTree = "<group>"; };
+		11BA387A1877120B00558D7D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +324,8 @@
 		1196AA8B1868812F00476CF6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11BA38771877120B00558D7D /* Html */,
+				11BA38701876F3EE00558D7D /* Libraries */,
 				117C4C7F1872197C00249EFF /* Images */,
 				1196AA6E1868811C00476CF6 /* Images.xcassets */,
 			);
@@ -333,6 +344,7 @@
 		1196AA921868A1E400476CF6 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				11BA38751876FD8200558D7D /* url_history_btn.png */,
 				1196AA931868A1E400476CF6 /* back_btn.png */,
 			);
 			name = Buttons;
@@ -381,6 +393,42 @@
 				11B918E91869CEF300DF23A7 /* CollectViewDataSource.m */,
 			);
 			name = CollectViewDataSource;
+			sourceTree = "<group>";
+		};
+		11BA38701876F3EE00558D7D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				11BA38711876F3EE00558D7D /* DSActivity */,
+			);
+			name = Libraries;
+			path = SimpleBrowser/Resources/Libraries;
+			sourceTree = "<group>";
+		};
+		11BA38711876F3EE00558D7D /* DSActivity */ = {
+			isa = PBXGroup;
+			children = (
+				11BA38721876F3EE00558D7D /* DSActivityView.h */,
+				11BA38731876F3EE00558D7D /* DSActivityView.m */,
+			);
+			path = DSActivity;
+			sourceTree = "<group>";
+		};
+		11BA38771877120B00558D7D /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				11BA38781877120B00558D7D /* About */,
+			);
+			name = Html;
+			path = SimpleBrowser/Resources/Html;
+			sourceTree = "<group>";
+		};
+		11BA38781877120B00558D7D /* About */ = {
+			isa = PBXGroup;
+			children = (
+				11BA38791877120B00558D7D /* About.html */,
+				11BA387A1877120B00558D7D /* style.css */,
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +512,7 @@
 				117C4D031872305B00249EFF /* gismeteo_logo.png in Resources */,
 				117C4D101872305B00249EFF /* ning_logo.png in Resources */,
 				117C4CFC1872305B00249EFF /* bing_logo.png in Resources */,
+				11BA387B1877120B00558D7D /* About.html in Resources */,
 				117C4CFA1872305B00249EFF /* amazon_logo.png in Resources */,
 				117C4CFB1872305B00249EFF /* ask_logo.png in Resources */,
 				117C4D0D1872305B00249EFF /* lenta_logo.png in Resources */,
@@ -486,11 +535,13 @@
 				117C4D191872305B00249EFF /* vimeo_logo.png in Resources */,
 				117C4D211872305B00249EFF /* youtube_logo.png in Resources */,
 				117C4D021872305B00249EFF /* forbes_logo.png in Resources */,
+				11BA387C1877120B00558D7D /* style.css in Resources */,
 				117C4D0F1872305B00249EFF /* mashable_logo.png in Resources */,
 				1196AA6F1868811C00476CF6 /* Images.xcassets in Resources */,
 				117C4D1E1872305B00249EFF /* wikipedia_logo.png in Resources */,
 				117C4CFF1872305B00249EFF /* dou_logo.png in Resources */,
 				117C4D041872305B00249EFF /* github_logo.png in Resources */,
+				11BA38761876FD8200558D7D /* url_history_btn.png in Resources */,
 				117C4D171872305B00249EFF /* twitter_logo.png in Resources */,
 				117C4D181872305B00249EFF /* vesti_logo.png in Resources */,
 				117C4D111872305B00249EFF /* pinterest_logo.png in Resources */,
@@ -520,6 +571,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1196AA6D1868811C00476CF6 /* AppDelegate.m in Sources */,
+				11BA38741876F3EE00558D7D /* DSActivityView.m in Sources */,
 				11B918EA1869CEF300DF23A7 /* CollectViewDataSource.m in Sources */,
 				11B918E51869C97F00DF23A7 /* CollectViewCell.m in Sources */,
 				1196AA691868811C00476CF6 /* main.m in Sources */,
